@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio | Creative Professional</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="bg-slate-50 text-slate-900 font-sans">
+
+    <nav class="fixed w-full z-50 bg-white/80 backdrop-blur-md border-b border-slate-200">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+            <span class="text-2xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">JD.</span>
+            <div class="hidden md:flex space-x-8 font-medium">
+                <a href="#home" class="hover:text-blue-600 transition">Home</a>
+                <a href="#about" class="hover:text-blue-600 transition">About</a>
+                <a href="#projects" class="hover:text-blue-600 transition">Projects</a>
+                <a href="#contact" class="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition">Hire Me</a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="pt-32 pb-20 px-4">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 mb-10 md:mb-0">
+                <h2 class="text-blue-600 font-semibold tracking-wide uppercase mb-2">Available for Work</h2>
+                <h1 class="text-5xl md:text-7xl font-extrabold mb-6 leading-tight">
+                    Hi, I'm <span class="text-indigo-600">John Doe</span>
+                </h1>
+                <p class="text-xl text-slate-600 mb-8 max-w-lg">
+                    A passionate Full-Stack Developer and UI/UX enthusiast crafting digital experiences that are functional, beautiful, and user-centered.
+                </p>
+                <div class="flex space-x-4">
+                    <a href="#projects" class="bg-slate-900 text-white px-8 py-3 rounded-xl font-bold hover:bg-slate-800 transition shadow-lg">View My Work</a>
+                    <a href="#" class="border border-slate-300 px-8 py-3 rounded-xl font-bold hover:bg-slate-100 transition">Download CV</a>
+                </div>
+            </div>
+            <div class="md:w-1/2 flex justify-center">
+                <div class="w-64 h-64 md:w-80 md:h-80 bg-gradient-to-br from-blue-400 to-indigo-600 rounded-2xl rotate-3 shadow-2xl overflow-hidden">
+                    <div class="w-full h-full flex items-center justify-center text-white text-64px">
+                        <i class="fas fa-user-circle fa-7x"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-4">
+            <h3 class="text-3xl font-bold mb-12 text-center">Technical Toolbox</h3>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                <div class="p-6 border border-slate-100 rounded-2xl bg-slate-50 hover:shadow-md transition">
+                    <i class="fab fa-html5 text-orange-500 text-3xl mb-4"></i>
+                    <h4 class="font-bold">HTML/CSS</h4>
+                    <p class="text-sm text-slate-500">Tailwind, Bootstrap</p>
+                </div>
+                <div class="p-6 border border-slate-100 rounded-2xl bg-slate-50 hover:shadow-md transition">
+                    <i class="fab fa-js text-yellow-400 text-3xl mb-4"></i>
+                    <h4 class="font-bold">JavaScript</h4>
+                    <p class="text-sm text-slate-500">React, Vue, Node</p>
+                </div>
+                <div class="p-6 border border-slate-100 rounded-2xl bg-slate-50 hover:shadow-md transition">
+                    <i class="fas fa-database text-blue-500 text-3xl mb-4"></i>
+                    <h4 class="font-bold">Backend</h4>
+                    <p class="text-sm text-slate-500">SQL, MongoDB, API</p>
+                </div>
+                <div class="p-6 border border-slate-100 rounded-2xl bg-slate-50 hover:shadow-md transition">
+                    <i class="fas fa-pen-nib text-purple-500 text-3xl mb-4"></i>
+                    <h4 class="font-bold">Design</h4>
+                    <p class="text-sm text-slate-500">Figma, Adobe XD</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="py-20 px-4">
+        <div class="max-w-6xl mx-auto">
+            <div class="flex justify-between items-end mb-12">
+                <div>
+                    <h3 class="text-3xl font-bold">Selected Projects</h3>
+                    <p class="text-slate-500 mt-2">A glimpse into my recent work</p>
+                </div>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="group bg-white rounded-3xl overflow-hidden border border-slate-200 hover:shadow-xl transition">
+                    <div class="h-64 bg-slate-200"></div> <div class="p-8">
+                        <span class="text-xs font-bold text-blue-600 uppercase tracking-widest">Web Application</span>
+                        <h4 class="text-2xl font-bold mt-2 mb-4">E-Commerce Dashboard</h4>
+                        <p class="text-slate-600 mb-6">A full-featured admin panel built with React and Tailwind CSS for managing online stores.</p>
+                        <div class="flex space-x-4">
+                            <span class="px-3 py-1 bg-slate-100 rounded-full text-xs font-medium">React</span>
+                            <span class="px-3 py-1 bg-slate-100 rounded-full text-xs font-medium">Tailwind</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group bg-white rounded-3xl overflow-hidden border border-slate-200 hover:shadow-xl transition">
+                    <div class="h-64 bg-slate-300"></div> <div class="p-8">
+                        <span class="text-xs font-bold text-indigo-600 uppercase tracking-widest">UI Design</span>
+                        <h4 class="text-2xl font-bold mt-2 mb-4">Health & Fitness App</h4>
+                        <p class="text-slate-600 mb-6">Designed a sleek mobile application interface focused on user activity tracking and nutrition.</p>
+                        <div class="flex space-x-4">
+                            <span class="px-3 py-1 bg-slate-100 rounded-full text-xs font-medium">Figma</span>
+                            <span class="px-3 py-1 bg-slate-100 rounded-full text-xs font-medium">Mobile UX</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-20 bg-slate-900 text-white px-4">
+        <div class="max-w-4xl mx-auto text-center">
+            <h3 class="text-4xl font-bold mb-6">Let's build something together</h3>
+            <p class="text-slate-400 mb-10 text-lg">I'm currently looking for new opportunities. My inbox is always open.</p>
+            <a href="mailto:hello@yourname.com" class="inline-block bg-blue-600 text-white px-10 py-4 rounded-2xl font-bold text-xl hover:bg-blue-500 transition shadow-lg">
+                Say Hello
+            </a>
+            <div class="flex justify-center space-x-8 mt-16 text-slate-400">
+                <a href="#" class="hover:text-white transition text-2xl"><i class="fab fa-github"></i></a>
+                <a href="#" class="hover:text-white transition text-2xl"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="hover:text-white transition text-2xl"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-8 text-center text-slate-500 border-t border-slate-200 bg-white">
+        <p>© 2024 Your Name. Built with Tailwind CSS.</p>
+    </footer>
+
+</body>
+</html>
